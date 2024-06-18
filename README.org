@@ -1,0 +1,58 @@
+#+title: Readme
+#+author: Marco Túlio, Augusto Ildefonso, Marcelo Caporalli, ....
+
+* Fonte de Tensão ajustável
+
+Foi realizado o projeto de uma fonte de tensão ajustável com saída de 0 a 12V, similar a fontes de carregadores de celular. O projeto foi realizado tanto para o aprendizado, como possível reutilização em projetos futuros. O design do circuito foi feito no falstad, com design de PCB no Eagle.
+
+** Componentes
+A lista de componentes segue abaixo:
+|-------------------------------+------------+-------|
+| Componente                    | Quantidade | Preço |
+|-------------------------------+------------+-------|
+| Capacitor 1000 \( \mu \) F    |          1 | xx    |
+| Resistor de 3.3k \( \omega \) |          1 | xx    |
+| Resistor de 1k \( \omega \)   |          1 | xx    |
+| Resistor de 4.7 k \( omega \) |          1 | xx    |
+| Diodo Zener 1N4743            |          1 | xx    |
+| Potênciometro 10k             |          1 | xx    |
+| Ponte de Diodo de 0.7V        |          1 | xx    |
+| Led de Inicação               |          1 | xx    |
+|-------------------------------+------------+-------|
+
+*** Função dos componentes
+
+- Capacitor 1000 \( \mu \) F: Armazena a energia para fornecer uma saída mais estável. Como nossa entrada é corrente alternada, durante o ciclo negativo, o capacitor fornece a energia para a saída. Durante o ciclo positivo, o capacitor é carregado.
+- Resistor de 3.3k \( \omega \): Limita a corrente que passa pelo LED indicador.
+- Resistor de 1k \( \omega \): Limita a corrente que passa pelo diodo Zener.
+- Resistor de 4.7k \( omega \): Limita a corrente que passa pelo potênciometro.
+- Diodo Zener 1N4743: Regula a tensão de saída.
+- Potênciometro 10k: Ajusta a tensão de saída.
+- Ponte de Diodo de 0.7V: Transforma a corrente alternada em corrente contínua.
+- Led de Inicação: Indica que a fonte está ligada.
+
+** Circuito
+O circuito foi desenhado no falstad, e pode ser acessado [[https://tinyurl.com/bde5azp][aqui]]. A imagem do circuito segue abaixo:
+
+#+ATTR_HTML: :width 500
+[[file:./Figs/circ_fals.png]]
+
+** Cálculos
+Os cálculos foram feitos pelo método da "exaustão", ou seja, foi feito tentativas e erros, modificando os valores de resistencia, capacitância, etc, até que o circuito funcionasse corretamente.
+
+** PCB
+O design do PCB foi feito no Eagle, e pode ser acessado ...
+
+** Design Eagle
+O design do circuito no Eagle pode ser acessado ...
+
+** Vídeo de Funcionamento
+O vídeo de funcionamento pode ser acessado ...
+
+* Alunos
+Os alunos que realizaram o projeto foram:
+- Marco Túlio
+- Augusto Ildefonso
+- Marcelo Caporalli
+- ...
+- ...
