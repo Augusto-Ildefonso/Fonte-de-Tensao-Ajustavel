@@ -1,4 +1,4 @@
-#+title: Readme
+#+title: Projeto de Fonte de Tensão Ajustável
 #+author: Marco Túlio, Augusto Ildefonso, Marcelo Caporalli, ....
 
 * Fonte de Tensão ajustável
@@ -7,25 +7,25 @@ Foi realizado o projeto de uma fonte de tensão ajustável com saída de 0 a 12V
 
 ** Componentes
 A lista de componentes segue abaixo:
-|-------------------------------+------------+-------|
-| Componente                    | Quantidade | Preço |
-|-------------------------------+------------+-------|
-| Capacitor 1000 \( \mu \) F    |          1 | xx    |
-| Resistor de 3.3k \( \omega \) |          1 | xx    |
-| Resistor de 1k \( \omega \)   |          1 | xx    |
-| Resistor de 4.7 k \( omega \) |          1 | xx    |
-| Diodo Zener 1N4743            |          1 | xx    |
-| Potênciometro 10k             |          1 | xx    |
-| Ponte de Diodo de 0.7V        |          1 | xx    |
-| Led de Inicação               |          1 | xx    |
-|-------------------------------+------------+-------|
+|--------------------------+------------+-------|
+| Componente               | Quantidade | Preço |
+|--------------------------+------------+-------|
+| Capacitor 1000  \mu F    |          1 | xx    |
+| Resistor de 3.3k \Omega  |          1 | xx    |
+| Resistor de 1k  \Omega   |          1 | xx    |
+| Resistor de 4.7 k  Omega |          1 | xx    |
+| Diodo Zener 1N4743       |          1 | xx    |
+| Potênciometro 10k        |          1 | xx    |
+| Ponte de Diodo de 0.7V   |          1 | xx    |
+| Led de Inicação          |          1 | xx    |
+|--------------------------+------------+-------|
 
 *** Função dos componentes
 
-- Capacitor 1000 \( \mu \) F: Armazena a energia para fornecer uma saída mais estável. Como nossa entrada é corrente alternada, durante o ciclo negativo, o capacitor fornece a energia para a saída. Durante o ciclo positivo, o capacitor é carregado.
-- Resistor de 3.3k \( \omega \): Limita a corrente que passa pelo LED indicador.
-- Resistor de 1k \( \omega \): Limita a corrente que passa pelo diodo Zener.
-- Resistor de 4.7k \( omega \): Limita a corrente que passa pelo potênciometro.
+- Capacitor 1000  \mu  F: Armazena a energia para fornecer uma saída mais estável. Como nossa entrada é corrente alternada, durante o ciclo negativo, o capacitor fornece a energia para a saída. Durante o ciclo positivo, o capacitor é carregado.
+- Resistor de 3.3k \Omega : Limita a corrente que passa pelo LED indicador.
+- Resistor de 1k  \Omega : Limita a corrente que passa pelo diodo Zener.
+- Resistor de 4.7k \Omega: Limita a corrente que passa pelo potênciometro.
 - Diodo Zener 1N4743: Regula a tensão de saída.
 - Potênciometro 10k: Ajusta a tensão de saída.
 - Ponte de Diodo de 0.7V: Transforma a corrente alternada em corrente contínua.
@@ -51,8 +51,8 @@ O vídeo de funcionamento pode ser acessado ...
 
 * Alunos
 Os alunos que realizaram o projeto foram:
-- Marco Túlio
 - Augusto Ildefonso
+- Marco Túlio
 - Marcelo Caporalli
 - ...
 - ...
