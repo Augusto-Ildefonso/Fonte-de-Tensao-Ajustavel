@@ -54,7 +54,7 @@ O design do circuito no Eagle pode ser acessado ...
 ** Vídeo de Funcionamento
 O vídeo de funcionamento pode ser acessado pelo seguinte link: [[https://youtu.be/-I7VpTSj-us][Projeto da Fonte de Tensão Ajustável]]
 *** Observação
-É importante notar que os valore de tensão variaram para menos, não chegando a 12 V. Isso pode ser devido a uma série de fatores, como a resistência interna dos componentes, como zenner, transistor e até mesmo dos fios. Ademais, o projeto foi feito numa protoboard, não sendo soldado, isso faz com que tenha uma resistência maior, influenciando na tensão de saída.
+É importante notar que os valores de tensão variaram para menos, não chegando a 12 V. Isso pode ser devido a uma série de fatores, como a resistência interna dos componentes, como zenner, transistor e até mesmo dos fios. Ademais, o projeto foi feito numa protoboard, não sendo soldado, isso faz com que tenha uma resistência maior, influenciando na tensão de saída.
 
 * Alunos
 Os alunos que realizaram o projeto foram:
