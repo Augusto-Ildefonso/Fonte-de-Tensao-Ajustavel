@@ -1,35 +1,40 @@
 #+title: Projeto de Fonte de Tensão Ajustável
-#+author: Marco Túlio, Augusto Ildefonso, Marcelo Caporalli, ....
+#+author: Marco Túlio, Augusto Ildefonso, Marcelo Caporalli, Lucas Alves
 
 * Fonte de Tensão ajustável
 
-Foi realizado o projeto de uma fonte de tensão ajustável com saída de 0 a 12V, similar a fontes de carregadores de celular. O projeto foi realizado tanto para o aprendizado, como possível reutilização em projetos futuros. O design do circuito foi feito no falstad, com design de PCB no Eagle.
+Foi realizado o projeto de uma fonte de tensão ajustável com saída de 3 a 12V, similar a fontes de carregadores de celular. O projeto foi realizado tanto para o aprendizado, como possível reutilização em projetos futuros. O design do circuito foi feito no falstad, com design de PCB no Eagle.
 
 ** Componentes
 A lista de componentes segue abaixo:
-|--------------------------+------------+-------|
-| Componente               | Quantidade | Preço |
-|--------------------------+------------+-------|
-| Capacitor 1000  \mu F    |          1 | xx    |
-| Resistor de 3.3k \Omega  |          1 | xx    |
-| Resistor de 1k  \Omega   |          1 | xx    |
-| Resistor de 4.7 k  Omega |          1 | xx    |
-| Diodo Zener 1N4743       |          1 | xx    |
-| Potênciometro 10k        |          1 | xx    |
-| Ponte de Diodo de 0.7V   |          1 | xx    |
-| Led de Inicação          |          1 | xx    |
-|--------------------------+------------+-------|
+|---------------------------+------------+---------|
+| Componente                | Quantidade | Preço   |
+|---------------------------+------------+---------|
+| Capacitor 1000  \mu F     |          1 | R$ 1.75 |
+| Resistor de 3.3 k \Omega  |          1 | R$ 0.07 |
+| Resistor de 1 k  \Omega   |          1 | R$ 0.07 |
+| Resistor de 4.7 k  \Omega |          1 | R$ 0.07 |
+| Resistor de 2.2 k \Omega  |          1 | R$ 0.07 |
+| Resistor de 100 \Omega    |          1 | R$ 0.07 |
+| Diodo Zener 1N4743        |          1 | R$ 0.49 |
+| Potênciometro 10 k        |          1 | R$ 6.79 |
+| Ponte de Diodo de 0.7 V   |          1 | R$ 3.78 |
+| Led de Indicação          |          1 | R$ 0.10 |
+| Transistor                |          1 | R$ 0.70 |
+|---------------------------+------------+---------|
 
 *** Função dos componentes
 
 - Capacitor 1000  \mu  F: Armazena a energia para fornecer uma saída mais estável. Como nossa entrada é corrente alternada, durante o ciclo negativo, o capacitor fornece a energia para a saída. Durante o ciclo positivo, o capacitor é carregado.
-- Resistor de 3.3k \Omega : Limita a corrente que passa pelo LED indicador.
-- Resistor de 1k  \Omega : Limita a corrente que passa pelo diodo Zener.
-- Resistor de 4.7k \Omega: Limita a corrente que passa pelo potênciometro.
+- Resistores de 3.3k \Omega e 1k \Omega : Arranjo em série com o potênciometro.
+- Resistor de 4.7k \Omega: Limita a corrente que passa pelo LED indicador.
+- Resistor de 2.2k \Omega: Limita a corrente que passa pelo diodo zener.
+- Resistor de 100 \Omega: Proteção do Transistor.
 - Diodo Zener 1N4743: Regula a tensão de saída.
 - Potênciometro 10k: Ajusta a tensão de saída.
 - Ponte de Diodo de 0.7V: Transforma a corrente alternada em corrente contínua.
 - Led de Inicação: Indica que a fonte está ligada.
+- Transistor: Regula a corrente que passa pelo diodo zener.
 
 ** Circuito
 O circuito foi desenhado no falstad, e pode ser acessado [[https://tinyurl.com/bde5azp][aqui]]. A imagem do circuito segue abaixo:
@@ -47,12 +52,13 @@ O design do PCB foi feito no Eagle, e pode ser acessado ...
 O design do circuito no Eagle pode ser acessado ...
 
 ** Vídeo de Funcionamento
-O vídeo de funcionamento pode ser acessado pelo seguinte link: [Projeto da Fonte de Tensão Ajustável](https://youtu.be/-I7VpTSj-us)
+O vídeo de funcionamento pode ser acessado pelo seguinte link: [[https://youtu.be/-I7VpTSj-us][Projeto da Fonte de Tensão Ajustável]]
+*** Observação
+É importante notar que os valore de tensão variaram para menos, não chegando a 12 V. Isso pode ser devido a uma série de fatores, como a resistência interna dos componentes, como zenner, transistor e até mesmo dos fios. Ademais, o projeto foi feito numa protoboard, não sendo soldado, isso faz com que tenha uma resistência maior, influenciando na tensão de saída.
 
 * Alunos
 Os alunos que realizaram o projeto foram:
-- Augusto Ildefonso
-- Marco Túlio
-- Marcelo Caporalli
-- ...
-- ...
+ - Augusto Fernandes Ildefonso ([[https://github.com/Augusto-Ildefonso][Github]])
+ - Lucas Alves da Silva ()
+ - Marcelo Caporalli Filho ([[https://github.com/MarceloCFilho][Github]])
+ - Marco Túlio Mello Silva ([[https://github.com/Marco-Normal][Github]])
