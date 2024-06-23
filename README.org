@@ -37,7 +37,7 @@ A lista de componentes segue abaixo:
 - Transistor: Regula a corrente que passa pelo diodo zener.
 
 ** Circuito
-O circuito foi desenhado no falstad, e pode ser acessado [[https://tinyurl.com/bde5azp][aqui]]. A imagem do circuito segue abaixo:
+O circuito foi desenhado no falstad, e pode ser acessado [[https://tinyurl.com/3m72w95a][aqui]]. A imagem do circuito segue abaixo:
 
 #+ATTR_HTML: :width 500
 [[file:./Figs/circuito_fals.png]]
