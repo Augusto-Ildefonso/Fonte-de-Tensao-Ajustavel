@@ -40,7 +40,7 @@ A lista de componentes segue abaixo:
 O circuito foi desenhado no falstad, e pode ser acessado [[https://tinyurl.com/bde5azp][aqui]]. A imagem do circuito segue abaixo:
 
 #+ATTR_HTML: :width 500
-[[file:./Figs/circ_fals.png]]
+[[file:./Figs/circuito_fals.png]]
 
 ** Cálculos
 Os cálculos foram feitos pelo método da "exaustão", ou seja, foi feito tentativas e erros, modificando os valores de resistencia, capacitância, etc, até que o circuito funcionasse corretamente.
