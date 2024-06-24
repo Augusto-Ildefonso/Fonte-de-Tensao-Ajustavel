@@ -44,7 +44,7 @@ O circuito foi desenhado no falstad, e pode ser acessado [[https://tinyurl.com/3
 
 ** Cálculos
 #+ATTR_HTML: :width 500
-[[file:./Figs/Cálculos Capacitor.jpeg]]
+[[file:./Figs/calculo_capacitor.jpeg]]
 
 ** PCB
 O design do PCB foi feito no Eagle, e pode ser acessado ...
