@@ -43,7 +43,8 @@ O circuito foi desenhado no falstad, e pode ser acessado [[https://tinyurl.com/3
 [[file:./Figs/circuito_fals.png]]
 
 ** Cálculos
-Os cálculos foram feitos pelo método da "exaustão", ou seja, foi feito tentativas e erros, modificando os valores de resistencia, capacitância, etc, até que o circuito funcionasse corretamente.
+#+ATTR_HTML: :width 500
+[[file:./Figs/Cálculos Capacitor.jpeg]]
 
 ** PCB
 O design do PCB foi feito no Eagle, e pode ser acessado ...
