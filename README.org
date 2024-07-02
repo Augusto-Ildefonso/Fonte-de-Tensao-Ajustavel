@@ -46,11 +46,13 @@ O circuito foi desenhado no falstad, e pode ser acessado [[https://tinyurl.com/3
 #+ATTR_HTML: :width 500
 [[file:./Figs/calculo_capacitor.jpeg]]
 
-** PCB
-O design do PCB foi feito no Eagle, e pode ser acessado ...
-
 ** Design Eagle
-O design do circuito no Eagle pode ser acessado ...
+O design do circuito no Eagle segue abaixo
+[[./Figs/eagle.png]]
+** PCB
+O design do PCB foi feito no Eagle, e pode ser visto abaixo
+[[./Figs/pcb.png]]
+
 
 ** Vídeo de Funcionamento
 O vídeo de funcionamento pode ser acessado pelo seguinte link: [[https://youtu.be/-I7VpTSj-us][Projeto da Fonte de Tensão Ajustável]]
